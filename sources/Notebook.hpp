@@ -13,6 +13,7 @@ struct Page
     int max_row;
     int min_col;
     int max_col;
+    // set the boundries and the number of page
     Page(int page_num) : note(std::vector<std::unordered_map<int, char>>(100))
     {
         page_number = page_num;
